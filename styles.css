@@ -1,0 +1,176 @@
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+  }
+  
+  h1{
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+  
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-family: 'Merriweather', serif;  color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+  
+  h3 {
+    font-family: 'Merriweather', serif;
+    color: #11999E;
+  }
+  
+  a{
+    color: #00ffff;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    color: #7b68ee;
+  }
+
+  hr{
+    border-style: dotted;
+    border-color: #EAF6F6;
+    border-width: 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+  }
+
+  header{
+    width: 100%;
+  }
+
+  .navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 21%);
+    width: 100%;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .navbar a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+    margin-left: 380px;
+    display: block;
+    
+  }
+
+  .navbar a:hover{
+    color: hsl(0, 26%, 45%);
+    background-color: hsl(0, 0%, 10%);
+  }
+
+  .navbar li{
+    float: left;
+    align-items: center;
+  }
+
+  nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .logo{
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .head_name{
+    color: #7b68ee;
+  }
+  
+  .code{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .team{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .copyright {
+    color: #EAF6F6;
+    padding: 20px 0;
+  }
+
+  .proj{
+    text-align: center;
+  }
+
+  .skill-row > p{
+    text-align: center;
+  }
+  
+  p{
+    line-height: 2;
+  }
+  
+  .footer-link{
+    color: #00fa9a;
+    text-decoration: none;
+  }
+  
+  .footer-link:hover {
+    color: #EAF6F6;
+  }
+  
+  #foot{
+    padding-left: 60px;
+  }
+
+  .skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+  }
+  
+  .top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+  }
+  
+  .middle-container{
+    margin: 100px 0;
+  }
+  
+  .bottom-container{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    padding: 50px 0 20px;
+    font-family: 'Merriweather', serif;
+  }
+  
+  .Web{
+    text-decoration: underline;
+  }
+  
+  .bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+  }
+  
+  .top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 40px;
+  }
